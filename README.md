@@ -7,9 +7,9 @@ Link to deployed application on Heroku: [Deployed Application](https://obscure-e
 
 ## Screenshots
 Budget Tracker Dashboard
-![Budget Tracker Dashboard](./screenshots/img1.png)
+![Budget Tracker Dashboard](./public/icons/screenshots/img1.png)
 Offline indexedDB
-![Offline indexedDB](./screenshots/img2.png)
+![Offline indexedDB](./public/icons/screenshots/img2.png)
 
 ## License
  MIT License
