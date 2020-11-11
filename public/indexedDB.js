@@ -14,7 +14,7 @@ request.onsuccess = (e) => {
 	db = e.target.result;
 
 	if (navigator.onLine) {
-		checkDatabse();
+		checkDatabase();
 	}
 };
 

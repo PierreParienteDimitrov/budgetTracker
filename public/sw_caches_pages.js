@@ -36,7 +36,7 @@ self.addEventListener('activate', (e) => {
 
 	// Remove unwanted caches
 	e.waitUntil(
-		caches.key().then((cacheNames) => {
+		caches.keys().then((cacheNames) => {
 			return Promise.all(
 				cacheNames.map((cache) => {
 					if (cache !== cacheName && cache !== dataCacheName) {
